@@ -1,0 +1,25 @@
+.dummyslider-wrapper {
+  position: relative;
+}
+.dummyslider-wrapper * {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.dummyslider-viewport {
+  overflow: hidden;
+  position: relative;
+}
+.dummyslider-slide {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.dummyslider-viewport.dummyslider-transition .dummyslider-slide {
+  transition: left .2s;
+}
+.dummyslider-prev, .dummyslider-next, .dummyslider-pager li {
+  cursor: pointer;
+}
