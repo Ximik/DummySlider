@@ -10,14 +10,14 @@
   overflow: hidden;
   position: relative;
 }
-.dummyslider-slide {
+.dummyslider-viewport > * {
   display: inline-block;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
 }
-.dummyslider-viewport.dummyslider-transition .dummyslider-slide {
+.dummyslider-viewport.dummyslider-transition > * {
   transition: left .2s;
 }
 .dummyslider-prev, .dummyslider-next, .dummyslider-pager li {
