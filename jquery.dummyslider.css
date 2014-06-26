@@ -13,9 +13,8 @@
 .dummyslider-viewport > * {
   display: inline-block;
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
+  left: 0px;
+  top: 0px;
 }
 .dummyslider-viewport.dummyslider-transition > * {
   transition: left .2s;
